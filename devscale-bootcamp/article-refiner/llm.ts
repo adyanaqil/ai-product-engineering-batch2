@@ -15,7 +15,7 @@ const ai = new OpenAI({
 
 export async function askAI(prompt: string): Promise<string> {
   const response = await ai.chat.completions.create({
-    model: "gpt-5.6-luna",
+    model: "deepseek-v4.1-flash",
     messages: [{ role: "user", content: prompt }],
   });
 

@@ -1,14 +1,13 @@
 {
-  "name": "article-refiner",
+  "name": "devscale-bootcamp-assignment-1",
   "version": "1.0.0",
-  "main": "index.ts",
+  "private": true,
   "type": "module",
   "scripts": {
-    "dev": "tsx index.ts", "test": "echo \"Error: no test specified\" && exit 1" 
+    "task1": "tsx article-refiner/index.ts",
+    "task2": "tsx idea-review-board/index.ts",
+    "task3": "tsx ticket-triage/index.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@anvia/core": "^1.3.2",
     "dotenv": "^16.6.1",
